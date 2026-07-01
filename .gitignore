@@ -22,3 +22,17 @@ runs/
 # OS files
 .DS_Store
 Thumbs.db
+# Generated UI outputs
+outputs/
+
+# Streamlit temp/cache
+.streamlit/secrets.toml
+
+# Large model and video files
+*.pt
+*.mp4
+*.avi
+*.mov
+*.mkv
+runs/
+input_videos/
